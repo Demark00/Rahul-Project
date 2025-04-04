@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Card from '../components/Card';
 import Projects from '../components/Projects';
-import Footer from '../components/Footer';
 
 const Homepage = () => {
   return (
@@ -73,6 +72,32 @@ const Homepage = () => {
           <Link to="/portfolio" className="btn py-8 px-12 bg-gradient-to-r from-neutral-400 to-neutral-100 hover:from-neutral-400 hover:to-neutral-500 hover:scale-105 transition-all duration-300 ease-in-out text-gray-950 text-lg rounded-xl font-medium poppins-regular">
             View All
           </Link>
+        </div>
+      </div>
+
+      {/* Experience Section */}
+      <div className="experience-section container mx-auto mt-32 px-6 mb-56">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          {/* Box 1 */}
+          <div className="flex flex-col items-center justify-center p-6 text-white min-h-80 gap-3 rounded-l-4xl" style={{ backgroundColor: "#25262A" }}>
+            <h3 className="text-6xl font-mono font-medium text-[#64F4AB]">65</h3>
+            <p className="text-2xl poppins-light font-extrabold">Happy Clients</p>
+          </div>
+          {/* Box 2 */}
+          <div className="flex flex-col items-center justify-center p-6 text-white  min-h-72 gap-3" style={{ backgroundColor: "#25262A" }}>
+            <h3 className="text-6xl font-mono font-medium text-[#64F4AB]">87</h3>
+            <p className="text-2xl poppins-light">Projects Done</p>
+          </div>
+          {/* Box 3 */}
+          <div className="flex flex-col items-center justify-center p-6 text-white  min-h-72 gap-3" style={{ backgroundColor: "#25262A" }}>
+            <h3 className="text-6xl font-mono font-medium text-[#64F4AB]">28</h3>
+            <p className="text-2xl poppins-light">International Clients</p>
+          </div>
+          {/* Box 4 */}
+          <div className="flex flex-col items-center justify-center p-6 text-white  min-h-72 gap-3 rounded-r-4xl" style={{ backgroundColor: "#25262A" }}>
+            <h3 className="text-6xl font-mono font-medium text-[#64F4AB]">5</h3>
+            <p className="text-2xl poppins-light">Years Experience</p>
+          </div>
         </div>
       </div>
 

@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@motionone/dom": "^10.18.0",
     "@tailwindcss/vite": "^4.1.1",
     "daisyui": "^5.0.12",
     "framer-motion": "^12.6.3",
+    "motion-plus": "^0.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hot-toast": "^2.5.2",
